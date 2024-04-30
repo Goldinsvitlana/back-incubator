@@ -4,6 +4,7 @@ const addresses = [{id: 1, value: 'Nezalejnasti 12'}, {id: 2, value: 'Selickaga 
 
 export const addressesRouter = Router({})
 
+
 addressesRouter.get('/', (req: Request, res: Response) => {
     res.send(addresses)
   })
